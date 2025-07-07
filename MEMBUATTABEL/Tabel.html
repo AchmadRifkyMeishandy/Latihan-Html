@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Tabel</title>
+</head>
+<body>
+    <h1>Membuat tabel</h1>
+    <h4>Tabel standard</h4>
+    <table border="1">
+        <!-- tr, baris -->
+         <!-- td, data -->
+          <!-- th, header -->
+
+          <!-- Baris 1 -->
+          <tr> 
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <!-- Baris 2 -->
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          </table>
+          
+          <table border="1">
+          <h4>Dengan header</h4>
+          <tr>
+              <th>Senin</th>
+              <td>10:00</td>
+              <td>12:00</td>
+              </tr>
+          <tr>
+              <th>Selasa</th>
+              <td>08.00</td>
+              <td>12.00</td>
+              </tr>
+    </table>
+
+    <table border="2">
+        <h4>Dengan th</h4>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <td>10:00</td>
+            <td>11:00</td>
+        </tr>
+        <tr>
+            <td>08:00</td>
+            <td>09:00</td>
+        </tr>
+    </table>
+
+    <h4>Membuat satu baris</h4>
+    <table border="1">
+    <th></th>
+    <th>Senin</th>
+    <tr>
+        <th>10:00</th>
+        <td>Berangkat sekolah</td>
+    </tr>
+    <tr>
+        <th>12:00</th>
+        <td>Makan siang</td>
+    </tr>
+</table>
+
+
+<h4>Alokasi kolom dengan colspan</h4>
+<table border="1">
+<th></th>
+<th>Senin</th>
+<th>Selasa</th>
+<tr>
+    <th>10:00</th>
+    <td>Berangkat sekolah</td>
+    <td>Berangkat bernang</td>
+</tr>
+<tr>
+    <th rowspan="2">12:00</th>
+    <td colspan="10">Makan siang</td>
+</tr>
+<tr>
+    <td colspan="2">Sholat zuhur</td>
+</tr>
+</table>
+</body>
+</html>

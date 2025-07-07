@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+}
+
+.container-navbar {
+  background-color: #530c0c;
+  width: 100%;
+  height: 10vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+#biodata {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border-radius: 80%;
+}
+
+.li-navbar:hover {
+  background-color: brown;
+  transition: 0.1s ease-in-out;
+  transition-delay: 0.1s;
+  border-radius: 10px;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.container-content {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.logo-content {
+  width: 30%;
+  height: 30%;
+  border-radius: 80px;
+}
+
+.a-content {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  width: 720px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 80px;
+  box-shadow: 10px 10px 5px 0px re;
+  -webkit-box-shadow: 10px 10px 5px 0px #530c0c;
+  -moz-box-shadow: 10px 10px 5px 0px #530c0c;
+}
+
+.container-footer {
+  background-color: #530c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.h1-footer {
+  font-size: 25px;
+  font-family: "Times New Roman";
+  color: white;
+}
