@@ -1,6 +1,6 @@
-# Local and editor files
+# Local editor and operating system files
+.vscode/
 .DS_Store
 Thumbs.db
-.vscode/
 *.log
 *.tmp
